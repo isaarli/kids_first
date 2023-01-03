@@ -110,7 +110,14 @@ header {
 
 .nav li {
     text-transform: capitalize;
-    font-size: 20px;
+    font-size: 23px; 
+    font-weight: 500;
+    transition: all 0.7s 0s ease;
+}
+
+.nav li :hover {
+    color: #a044ff;
+    transition: all 0.7s 0s ease;
 }
 
 
@@ -125,6 +132,7 @@ header {
     transition: 0.5s;
     padding: 10px 0;
 }
+
 
 /* header */
 
@@ -174,12 +182,18 @@ header {
 } 
 
 .show-backdrop {
-    z-index: 2;
+    z-index: 1;
     opacity: 1;
 }
 
 #inputTelegram {
     margin: 10px 0 0 0 ;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
 }
 
 /* category__filter */
@@ -262,7 +276,7 @@ footer .row {
 }
 
 .footer__svg img {
-    color: aqua;
+    /* color: aqua; */
     background-color: #457fca;
 }
 
@@ -291,6 +305,20 @@ footer .col-4:nth-child(2) {
 
 .box-2 img {
     width: 44px;
+}
+
+svg {
+    width: 44px;
+    height: 44px;
+    fill: #EF629F;
+    transition: all 0.7s 0s ease;
+}
+
+footer a :hover {
+    width: 55px;
+    height: 55px;
+    fill: #a044ff;
+    transition: all 0.7s 0s ease;
 }
 
 /* footer */
