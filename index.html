@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Детская одежда</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" /> 
+    <link rel="stylesheet" href="./style/castom.css">
+    <link rel="stylesheet" href="./style/modal.css">
+    <link rel="stylesheet" href="./style/categoty.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/accordion.css">
+    <link rel="stylesheet" href="./style/burger.css">
+    <link rel="stylesheet" href="./style/media.css">
+</head>
+
+<body>
+    
+
+<div class="backdrop-burger"></div>
+<header>
+    <div class="container">
+        <div class="header__nav">
+            <a href=""><img src="./images/logo.png" alt=""></a>
+            <ul class="nav">
+                <li class="nav__item"><a href="">Каталог</a></li>
+                <li class="nav__item"><a href="">Контакты</a></li>
+                <li class="nav__item"><a href="">Доставка</a></li>
+                <li class="nav__item"><a href="">О нас</a></li>
+            </ul>
+            <div class="mobile-btn">
+                <span></span>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<!-- category__filter -->
+<section id="category__filter">
+    <div class="container">
+        <div class="category__wrap">
+            <h1>Детская одежда</h1>
+            <p>Приобретая одежду у нас, <br>вы становитесь,участником соц.поддержки</p>
+            <button class="cover__button">Войти в кабинет</button>  
+            <form>
+                <button id="telegram">Обратная связь</button>
+                <input type="text" id="inputTelegram" placeholder="Введите номер">                
+            </form>
+        </div>
+    </div>
+</section>
+
+<div class="backdrop">
+    <div class="modal">
+        <div class="modalHeader">
+            <h2>Вход</h2>
+            <p class="modalCloseButton">X</p>
+        </div>
+        <form class="modalContent">     
+            <p>Login</p>   
+            <input type="email" id="inputMessage" placeholder="Введите Email">
+            <p>Password</p>
+            <input type="password" id="inputNumber" placeholder="Введите пароль">
+            <button id="modalApplyButtonOne" class="modalApplyButton">Войти</button>       
+        </form>
+    </div>
+</div>
+<!-- category__filter -->
+
+<section id="categories">
+    <div class="container">
+        <h2>Категорий</h2>
+        <div>
+         <input type="text" class="searchInput" placeholder="Введите название">
+            <button class="search">Поиск</button></div>
+        <div class="categories__choise">
+            
+        </div>
+        <div class="row output">
+
+        </div>
+    </div>
+</section>
+
+<section id="main">
+    <div class="container">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+
+<section id="accordionSection">
+    <div class="container accordion__title">
+     <h2>Доставка</h2>   
+    </div>
+    <div class="container container__accordion"> 
+          <div class="accordion__wrap">
+            <div class="accordion__box">
+                <h3>Производитель детской продукции</h3>
+                <p>Торговая марка Kids - это молодой и активно развивающийся бренд. Мы разрабатываем уникальную линию одежды для новорождённых. Концепция нашей работы – это разработка продукции, соответствующей желаниям сегодняшних родителей: удобных, качественных и недорогих вещей, которые были бы доступны всем. Ассортимент собственного производства Dana включает в себя конверты, комплекты и одежда на выписку из роддома (с учётом времени года и различного фасона), одежда для новорожденных, комплекты детского постельного белья, пледы, а также бортики в кроватку. Вся изготовленная нами продукция выполнена только из натуральных тканей в нежной пастельной гамме оттенков, украшена изысканным декором в виде кружев и лент, с учётом сезона, а также сертифицирована и соответствует всем санитарно-гигиеническим нормам.</p>
+            </div>
+        </div>
+        <div class="accordion">
+        </div>
+    </div>
+</section>
+
+<section id="castom">
+    <div class="container">
+        <h2>Отзывы</h2>
+        <div class="castom__wrap castomAlt">
+        <div class="card">
+            <div class="card-side front">
+                <img src="./images/user.png" alt="">
+                <p>Elza</p>
+            </div>
+            <div class="card-side back">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias eaque voluptate repellat voluptatibus, laboriosam dignissimos quas consequuntur quos quaerat ullam!</p>
+            </div>
+          </div>
+        <div class="card">
+            <div class="card-side front">
+                <img src="./images/user.png" alt="">
+                <p>olov</p>
+            </div>
+            <div class="card-side back">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias eaque voluptate repellat voluptatibus, laboriosam dignissimos quas consequuntur quos quaerat ullam!</p>
+            </div>
+          </div>
+        <div class="card">
+            <div class="card-side front">
+                <img src="./images/user.png" alt="">
+                <p>anna</p>
+            </div>
+            <div class="card-side back">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias eaque voluptate repellat voluptatibus, laboriosam dignissimos quas consequuntur quos quaerat ullam!</p>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <h3>О КОМПАНИИ</h3>
+                <div class="box__footer box-1">
+                    <div><img src="./images/telephone.png" alt=""><p>+996 999 378888</p></div>
+                    <div><img src="./images/info.png" alt=""><p>info@dana.kg</p></div>
+                    <div><img src="./images/location.png" alt=""><p>Раззакова 32</p></div>
+                </div>                
+            </div>
+            <div class="col-4">
+                <h3>НАШИ СОЦ.СЕТИ</h3>
+                <div class="box__footer box-2">
+                    <div class="">
+                        <img src="./images/instagram.svg"/>
+                        <img src="./images/instagram.svg"/>
+                        <img src="./images/instagram.svg"/>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-4">
+                <h3>РАССЫЛКА</h3>
+                <div class="box__footer">
+                    <input type="text">
+                    <button class="coverFooter__button">Отправить</button>
+                </div>  
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./script/accordion.js"></script>
+    <script src="./script/slider.js"></script>
+    <script src="./script/category.js"></script>
+    <script src="./script/modal.js"></script>
+    <script src="./script/script.js"></script>
+    <script src="./script/burger.js"></script>
+</body>
+
+</html>
