@@ -1,54 +1,54 @@
 const dataAlt = [
     {
-        name: 'super костюм',
+        name: 'super',
         img: 'https://cdn.create.vista.com/api/media/medium/333702612/stock-photo-pregnancy-test-baby-clothes-and?token=',
         price:100,
         category:'Костюм'
     },
     {
-        name: 'pro костюм',
+        name: 'pro',
         img: 'https://cdn.create.vista.com/api/media/small/358616838/stock-photo-baby-accessories-newborns-colored-background',
         price:150,
         category:'Костюм'
     },
     {
-        name: 'extra костюм',
+        name: 'extra',
         img: 'https://cdn.create.vista.com/api/media/small/341755194/stock-photo-pastel-knitted-romper-jumper-shoes',
         price:180,
         category:'Костюм'
     },
     {
-        name: 'italian штаны',
+        name: 'italian',
         img: 'https://cdn.create.vista.com/api/media/medium/167233708/stock-photo-baby-clothes-and-accessories-on?token=',
         price:300,
         category:'Штаны'
     },
     {
-        name: 'meat штаны',
+        name: 'meat',
         img: 'https://cdn.create.vista.com/api/media/medium/403891058/stock-photo-baby-mockup-bodysuits-baby-girl?token=',
         price:400,
         category:'Штаны'
     },
     {
-        name: 'Футболки extra',
+        name: 'extra',
         img: 'https://cdn.create.vista.com/api/media/small/275021038/stock-photo-dress-and-shoes-for-baby',
         price:500,
         category:'Футболки'
     },
     {
-        name: 'Футболки pro',
+        name:  'pro',
         img: 'https://cdn.create.vista.com/api/media/small/350738446/stock-photo-baby-clothes-accessories-color-background',
         price:1000,
         category:'Футболки'
     },
     {
-        name: 'Футболки ultra',
+        name: 'ultra',
         img: 'https://cdn.create.vista.com/api/media/small/198141454/stock-photo-clothes-baby-baby-bottle-milk',
         price:2000,
         category:'Футболки'
     },
     {
-        name: 'Футболки full',
+        name:  'full',
         img: 'https://cdn.create.vista.com/api/media/small/495403224/stock-photo-stylish-baby-clothes-toys-color',
         price:3000,
         category:'Футболки'
